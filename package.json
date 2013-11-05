@@ -1,8 +1,17 @@
 {
 	"name":"ece-metrics",
 	"version":"0.0.0",
-	"dependencies":{},
+	"dependencies":{
+		"level-sublevel":"*",
+		"express":"*",
+		"jade":"*",
+		"stylus":"*",
+		"supervisor":"*",
+		"leveldown":"*",
+		"levelup":"*"
+		},
 	"devDependencies":{
+		"coffee-script":"*",
 		"mocha":"*",
 		"should":"*"
 	}
